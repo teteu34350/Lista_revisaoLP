@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   List<int> idades = [];
   List<double> alturas = [];
-  for (int p = 0; p < 4; p++) {
+  for (int p = 0; p < 5; p++) {
     print("Olá Pessoa[${p + 1}]");
 
     print("Digite sua idade:");
@@ -16,7 +16,7 @@ void main() {
     double altura = double.parse(alt!);
     alturas.add(altura);
   }
-    for (int d = 3; d >= 0; d--) {
+    for (int d = 4; d >= 0; d--) {
       print("Idades[${idades[d]}]Altura${alturas[d]}");
     }
 }
